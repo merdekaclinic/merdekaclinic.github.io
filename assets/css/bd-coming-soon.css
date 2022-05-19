@@ -6,7 +6,7 @@ body {
   @media (max-width: 767px) {
     body {
       padding-bottom: 30px; } }
-.h1 {
+h1 {
 margin-top: 20px;
 }
 
