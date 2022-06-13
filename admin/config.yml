@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: merdekaclinic.github.io
+  repo: merdekaclinic/merdekaclinic.github.io
   branch: master
   site_domain: candid-muffin-b6504b.netlify.app
 
