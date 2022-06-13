@@ -3,6 +3,10 @@ backend:
   repo: merdekaclinic/merdekaclinic.github.io
   branch: main
   site_domain: candid-muffin-b6504b.netlify.app
+  publish_mode: editorial_workflow
+  site_url: https://merdeka.clinic
+  display_url: https://merdeka.clinic
+  logo_url: https://merdeka.clinic/assets/images/logo.svg
 
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/images" # The src attribute for uploaded media will begin with /images/uploads
@@ -11,6 +15,20 @@ collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "---" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Category", name: "category", widget: "string", default: "jekyll"}
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "_pagess" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "---" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
