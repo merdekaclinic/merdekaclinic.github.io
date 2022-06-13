@@ -2,18 +2,18 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://merdeka.clinic'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Klinik Merdeka
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: 
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Site, Klinik, Merdeka, Blood, Darah, Melaka, Batu, Berendam, Clinic, Sihat, Kesihatan, Health, Healthcare
 # URL for the Image of custom Favicon
 favicon-url: /favicon.png
 
@@ -22,12 +22,12 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
+email: support@merdeka.clinic
 facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
+twitter_username: klinikmerdeka
+instagram_username: klinikmerdeka
+linkedin_username: klinikmerdeka
+github_username:  klinikmerdeka
 youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
 reddit_username: /
 behance_username: /
