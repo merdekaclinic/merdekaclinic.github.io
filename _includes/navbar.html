@@ -1,4 +1,4 @@
-<nav class="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+<nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
 
         <!-- logo or branding image on left side -->
@@ -7,7 +7,7 @@
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
                 <img src={{site.site-logo}}></img>
             </a>
-            <div class="navbar-burger" data-target="navbar-menu">
+            <div class="navbar-burger" data-target="#navbar,#navbar-menu">
                 <span></span>
                 <span></span>
                 <span></span>
