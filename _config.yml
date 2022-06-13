@@ -154,6 +154,9 @@ footer:
 head_scripts:
   - https://identity.netlify.com/v1/netlify-identity-widget.js
 
+footer_scripts:
+  - /assets/js/cfooter.js
+  
 # Reading Files
 include:
   - .htaccess
