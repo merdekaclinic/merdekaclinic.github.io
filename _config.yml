@@ -151,11 +151,11 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-head_scripts:
-  - https://identity.netlify.com/v1/netlify-identity-widget.js
+#head_scripts:
+#  - https://identity.netlify.com/v1/netlify-identity-widget.js
 
-footer_scripts:
-  - /assets/js/cfooter.js
+#footer_scripts:
+#  - /assets/js/cfooter.js
   
 # Reading Files
 include:
