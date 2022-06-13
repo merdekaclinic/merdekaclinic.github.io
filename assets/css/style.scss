@@ -7,6 +7,11 @@
     opacity: 0.95;
 }
 
+.navbar.is-transparent {
+    background-color: #fff0;
+    color: #072f5f;
+}
+
 .is-active {
     font-weight: 600;
 }
@@ -42,7 +47,7 @@ a.navbar-item.is-active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.45rem);
+        filter: blur(0.25rem);
         background-image: url({{site.heroimage}});
         background-position: center;
         background-repeat: no-repeat;
@@ -60,6 +65,10 @@ a.navbar-item.is-active {
 
 .is-blue {
     color:#072f5f;
+}
+
+.button.is-blue{
+    background-color:#072f5f;
 }
 
 .title {
