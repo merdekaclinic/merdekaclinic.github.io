@@ -7,7 +7,7 @@ tags:
   - Post Formats
   - readability
   - standard
-draft: true
+draft: false
 date: 2022-06-13 20:21
 ---
 
