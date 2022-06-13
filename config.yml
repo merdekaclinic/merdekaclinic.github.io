@@ -2,7 +2,7 @@ backend:
   name: github
   repo: merdekaclinic/merdekaclinic.github.io
   branch: master
-  site_domain: iridescent-heliotrope-ab9d4f.netlify.com
+  site_domain: iridescent-heliotrope-ab9d4f.netlify.app
 
 media_folder: "images/uploads"
 
