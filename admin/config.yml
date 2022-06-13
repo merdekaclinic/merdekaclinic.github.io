@@ -3,10 +3,10 @@ backend:
   repo: merdekaclinic/merdekaclinic.github.io
   branch: main
   site_domain: candid-muffin-b6504b.netlify.app
-  publish_mode: editorial_workflow
-  site_url: https://merdeka.clinic
-  display_url: https://merdeka.clinic
-  logo_url: https://merdeka.clinic/assets/images/logo.svg
+  
+site_url: https://merdeka.clinic
+display_url: https://merdeka.clinic
+logo_url: https://merdeka.clinic/assets/images/logo.svg
 
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/images" # The src attribute for uploaded media will begin with /images/uploads
