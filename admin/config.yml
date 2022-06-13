@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: merdekaclinic/merdekaclinic.github.io
-  branch: master
+  branch: main
   site_domain: candid-muffin-b6504b.netlify.app
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
