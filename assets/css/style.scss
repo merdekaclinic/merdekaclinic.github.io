@@ -7,23 +7,6 @@
     opacity: 0.95;
 }
 
-.navbar-item img {
-    max-height: 4rem;
-}
-
-#ilogo{
-    max-height: 10rem;
-}
-
-hr {
-    background-color: #072f5f;
-}
-
-.navbar.is-transparent {
-    background-color: #fff0;
-    color: #072f5f;
-}
-
 .is-active {
     font-weight: 600;
 }
@@ -36,16 +19,16 @@ hr {
 
 a.navbar-item:hover,
 .navbar-link:hover {
-    background-color: rgb(229 240 255) !important;
-    color: #072f5f !important;
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    color: white !important;
 }
 
 a.navbar-item.is-active {
-    background-color: rgb(229 240 255) !important;
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
     color: white !important;
 
     &:hover {
-        background-color: rgb(229 240 255) !important;
+        background-color: rgba($color: #fff, $alpha: 0.25) !important;
         color: grey;
     }
 }
@@ -56,10 +39,14 @@ a.navbar-item.is-active {
 
 
 #hero {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.25rem);
+        filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
         background-position: center;
         background-repeat: no-repeat;
@@ -74,16 +61,6 @@ a.navbar-item.is-active {
         content: "";
     }
 }
-
-.is-blue {
-    color:#072f5f;
-}
-
-.button.is-blue{
-    background-color:#072f5f;
-    color:white;
-}
-
 .title {
     margin: auto 0.75rem!important;
 }
