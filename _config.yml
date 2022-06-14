@@ -10,6 +10,7 @@ baseurl:
 title: Klinik Merdeka
 # Description of the Site
 description: healthcare you deserve
+
 # URL of Image of the Site
 site-image: /assets/images/meta.jpg
 site-logo: /assets/images/logo.svg
@@ -22,7 +23,6 @@ favicon-url: /favicon.png
 heroimage: /assets/images/background.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
 # Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
 email: support@merdeka.clinic
 facebook_username: thedevslot
 twitter_username: klinikmerdeka
