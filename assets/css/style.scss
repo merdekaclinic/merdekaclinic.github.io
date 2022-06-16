@@ -5,6 +5,7 @@
 
 #navbar {
     opacity: 0.95;
+    color: #163967;
 }
 
 .navbar-item img {
@@ -13,6 +14,18 @@
 
 #ilogo {
     max-width: 40rem;
+}
+
+#1161a0
+
+a.navbar-item.is-active {
+    background-color: #1161a0 !important;
+    color: white !important;
+}
+
+a.navbar-item:hover {
+    background-color: #e0eeff !important;
+    color: #163967 !important;
 }
 
 .is-transparent {
