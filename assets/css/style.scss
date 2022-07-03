@@ -27,11 +27,12 @@
 .is-blue {
     color: #fff;
     background-color: #1161a0;
-    font-size: 1vw;
+    font-size: 2vmax;
+    max-width: 50vmax;
 }
 
 a.is-blue:hover {
-    color: #000000;
+    color: #072f5f;
     background-color: #bfddff;
 }
 
