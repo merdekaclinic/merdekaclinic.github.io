@@ -28,12 +28,19 @@
     color: #fff;
     background-color: #1161a0;
     font-size: 2vmax;
-    max-width: 50vmax;
+    max-width: 40vmax;
 }
 
 a.is-blue:hover {
     color: #072f5f;
     background-color: #bfddff;
+}
+
+a.is-blue:selection {
+    color: #fff;
+    background-color: #1161a0;
+    font-size: 2vmax;
+    max-width: 40vmax;
 }
 
 hr {
