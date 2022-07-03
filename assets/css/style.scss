@@ -7,6 +7,10 @@
     opacity: 0.95;
 }
 
+#ilogo {
+  max-width: 40vmax;
+}
+
 .is-active {
     font-weight: 600;
 }
@@ -40,10 +44,10 @@ a.navbar-item.is-active {
 
 #hero {
     background: rgb(255, 255, 255);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0.75) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    background: -moz-linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.75) 100%);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#000000", GradientType=1);
 
     &::before {
         filter: blur(0.15rem);
